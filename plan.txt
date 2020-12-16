@@ -1,0 +1,6 @@
+-------------------------------------------------------------------Requirements-----------------------------------------------------------
+1) All pics
+2)Bootstrap
+	a)navbar
+	b) Carousel with indicators - for slides.
+	c)grid - for offers like min 80% off , etc
