@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.guest{
+    text-align: right;
+    position: sticky;
+    font-size: 12px;
+    margin: 2px;
+    /* border: 2px solid black; */
+}
+.guest span a{
+    text-decoration: none;
+    color: black;
+    margin-right: 23px;
+}
+.guest span a:hover{
+    text-decoration: underline;
+}
+.guest span:nth-child(2){
+    margin-right: 15%;
+}
+.navbar-brand img{
+    
+    width: 145px;
+}
