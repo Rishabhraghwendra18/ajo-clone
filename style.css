@@ -1,4 +1,6 @@
 *{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
     margin: 0px;
     padding: 0px;
 }
@@ -21,6 +23,11 @@
     margin-right: 15%;
 }
 .navbar-brand img{
-    
-    width: 145px;
+    width: 8rem;
+}
+.form-control{
+    border-radius: 5rem;
+    background-color:#fffded;
+    width: 20rem;
+    font-family: Helvetica,sans-serif;
 }
