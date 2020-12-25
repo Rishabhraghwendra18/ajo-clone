@@ -67,3 +67,10 @@
 .btn:hover{
     color: rgb(255, 255, 255);
 }
+/* Dropdown Menus */
+.dropdown:hover > .dropdown-menu{
+display: block;
+}
+.navlink:hover{
+    font-weight: bold;
+}
