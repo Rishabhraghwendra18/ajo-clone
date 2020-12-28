@@ -4,6 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
+/* Navbar settings */
+.navbar{
+    z-index: 3;
+}
 .guest{
     text-align: right;
     position: sticky;
@@ -72,5 +76,11 @@
 display: block;
 }
 .navlink:hover{
-    font-weight: bold;
+    font-weight: 600;
 }
+.nav-link:hover{
+border-bottom: 2px solid black;
+}
+
+
+/*******************************************Carousels******************************************/
