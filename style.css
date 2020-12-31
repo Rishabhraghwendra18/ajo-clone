@@ -1,0 +1,101 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
+}
+/* Navbar settings */
+.navbar{
+    z-index: 3;
+}
+.guest{
+    text-align: right;
+    position: sticky;
+    font-size: 12px;
+    margin: 2px;
+}
+.guest span a{
+    text-decoration: none;
+    color: black;
+    margin-right: 23px;
+}
+.guest span a:hover{
+    text-decoration: underline;
+}
+.guest span:nth-child(2){
+    margin-right: 15%;
+}
+.navbar-brand img{
+    width: 8rem;
+}
+.form-control{
+    border-radius: 5rem;
+    background-color:#fffded;
+    width: 20rem;
+    font-family: Helvetica,sans-serif;
+}
+.img-responsive{
+    margin-left: 9rem;
+}
+/* Search Box Settings */
+.search_box{
+    display: flex;
+    flex-direction: row;
+    width: 273px;
+    border-radius: 23px;
+    background-color: #fffded; 
+    border: 1px solid black ;
+}
+.search_box > input{
+    border: none;
+    outline: none;
+}
+.search_box > input:focus{
+    box-shadow: inset 0 0px 0 ;
+    background-color: #fffded;
+}
+.submit__icon{
+    border: none;
+    background: none;
+    margin-right: 1rem;
+}
+
+/* Navbar Buttons */
+.btn{
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(44, 65, 82);
+    color: rgb(255, 255, 255);
+    margin: 0px 5px;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+}
+/* Dropdown Menus */
+.dropdown:hover > .dropdown-menu{
+display: block;
+}
+.navlink:hover{
+    font-weight: 600;
+}
+.nav-link:hover{
+border-bottom: 2px solid black;
+}
+
+
+/*******************************************Carousels******************************************/
+/* Nothing is required here */
+
+/*********************************************Discount Img**********************************************/
+.my_img{
+    width: 100%;
+    transition: transform 3s;
+}
+.my_img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.my__container{
+    width: 100%;
+}

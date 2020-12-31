@@ -1,5 +1,9 @@
 -------------------------------------------------------------------Requirements-----------------------------------------------------------
+<<<<<<< HEAD
 1) All pics
+=======
+1) All pics  ...
+>>>>>>> frontend
 2)Bootstrap
 	a)navbar
 	b) Carousel with indicators - for slides.
