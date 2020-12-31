@@ -3,6 +3,7 @@
     font-weight: 100;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 /* Navbar settings */
 .navbar{
@@ -89,6 +90,9 @@ border-bottom: 2px solid black;
 /*********************************************Discount Img**********************************************/
 .my_img{
     width: 100%;
+}
+.my_img:hover{
+    cursor: pointer;
 }
 .my__container{
     width: 100%;
